@@ -429,19 +429,6 @@ const UploadStep = (props: {
               return;
             }
 
-            const sizeKB = file.size / 1024;
-
-  /* We really want small files
-            if (sizeKB < 25) {
-              setCoverArtError(
-                `The file ${file.name} is too small. It is ${
-                  Math.round(10 * sizeKB) / 10
-                }KB but should be at least 25KB.`,
-              );
-              return;
-            }
-  */
-
             setCoverFile(file);
             setCoverArtError(undefined);
           }}
