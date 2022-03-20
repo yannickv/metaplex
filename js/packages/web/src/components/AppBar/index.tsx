@@ -114,6 +114,7 @@ export const LogoLink = () => {
   return (
     <Link to={`/`}>
       <img src={'/metaplex-logo.svg'} />
+      123Sponsor-NFT-v1
     </Link>
   );
 };
